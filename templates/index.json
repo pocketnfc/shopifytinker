@@ -538,7 +538,7 @@
                 "main_image": {
                   "type": "image",
                   "settings": {
-                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
+                    "image": "shopify://shop_images/deferred-media.png",
                     "link": "",
                     "image_ratio": "square",
                     "width": "fill",
@@ -605,7 +605,7 @@
                 "second_image": {
                   "type": "image",
                   "settings": {
-                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                    "image": "shopify://shop_images/Gemini_Generated_Image_9p514p9p514p9p51_1.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "50%",
@@ -819,7 +819,7 @@
                 "img": {
                   "type": "image",
                   "settings": {
-                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_4_698ab68a-b427-4bd9-a2c1-1e4d6ba6a2a3.jpg",
+                    "image": "shopify://shop_images/22d56000decf618cdd1fc47d1b6754896be64538.jpg",
                     "link": "",
                     "image_ratio": "landscape",
                     "width": "fill",
@@ -912,7 +912,7 @@
                 "img": {
                   "type": "image",
                   "settings": {
-                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                    "image": "shopify://shop_images/1ce1e74f75af95cdeb33b90ee23a3d9c4612f50f.png",
                     "link": "",
                     "image_ratio": "landscape",
                     "width": "fill",
@@ -1005,6 +1005,7 @@
                 "img": {
                   "type": "image",
                   "settings": {
+                    "image": "shopify://shop_images/7bd562641ee51b327dc99cb7a6ffd623981c9f96.png",
                     "link": "",
                     "image_ratio": "landscape",
                     "width": "fill",
