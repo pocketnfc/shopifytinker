@@ -893,9 +893,16 @@ h1,
 
 /* 3-Step Section Card */
 .step-card-ui {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   padding: 40px;
+  transition: transform 0.3s ease;
+}
+
+.step-card-ui:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 

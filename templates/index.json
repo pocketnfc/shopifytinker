@@ -453,7 +453,7 @@
                 }
             },
             "settings": {
-                "collection": "nfc",
+                "collection": "all",
                 "layout_type": "grid",
                 "columns": 3,
                 "section_width": "page-width",
