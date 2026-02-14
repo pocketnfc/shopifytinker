@@ -1,473 +1,1181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "hero_iLBwPd": {
-            "type": "hero",
-            "blocks": {
-                "text_PmHftQ": {
-                    "type": "custom-liquid",
-                    "settings": {
-                        "custom_liquid": "<h5><span class=\"text-accent-green\">Introducing</span></h5>"
-                    }
-                },
-                "text_w7f4Uw": {
-                    "type": "custom-liquid",
-                    "settings": {
-                        "custom_liquid": "<h1 class=\"text-hero-large\">NFC Keychains<br>by Pocket NFC</h1>"
-                    }
-                },
-                "text_w9CQWD": {
-                    "type": "custom-liquid",
-                    "settings": {
-                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p class=\"subtext-opacity\">Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
-                    }
-                },
-                "button_shop_now": {
-                    "type": "button",
-                    "settings": {
-                        "label": "Shop Now",
-                        "link": "shopify://collections/all",
-                        "style": "primary",
-                        "width": "fit-content"
-                    }
-                }
+  "sections": {
+    "hero_iLBwPd": {
+      "type": "hero",
+      "blocks": {
+        "text_PmHftQ": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<h5><span class=\"text-accent-green\">Introducing</span></h5>"
+          },
+          "blocks": {}
+        },
+        "text_w7f4Uw": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<h1 class=\"text-hero-large\">NFC Keychains<br>by Pocket NFC</h1>"
+          },
+          "blocks": {}
+        },
+        "text_w9CQWD": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+          },
+          "blocks": {}
+        },
+        "button_shop_now": {
+          "type": "button",
+          "settings": {
+            "label": "Shop Now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_PmHftQ",
+        "text_w7f4Uw",
+        "text_w9CQWD",
+        "button_shop_now"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/Container.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-end",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "section_height_custom": 80,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#000000",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 0,
+        "padding-block-end": 31
+      }
+    },
+    "icons_section": {
+      "type": "section",
+      "blocks": {
+        "group_1": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_4_698ab68a-b427-4bd9-a2c1-1e4d6ba6a2a3.jpg",
+                "width": 30,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
             },
-            "block_order": [
-                "text_PmHftQ",
-                "text_w7f4Uw",
-                "text_w9CQWD",
-                "button_shop_now"
-            ],
-            "settings": {
-                "media_type_1": "image",
-                "image_1": "shopify:\/\/shop_images\/Gemini_Generated_Image_gtt3tggtt3tggtt3.png",
-                "stack_media_on_mobile": false,
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<h6>Fast And Instant Shipping</h6>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon",
+            "text"
+          ]
+        },
+        "group_2": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                "width": 30,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<h6>Secure, Safe & Private</h6>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon",
+            "text"
+          ]
+        },
+        "group_3": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_2_fdfc8b62-9826-4c2d-9685-cdf5224cf478.jpg",
+                "width": 30,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<h6>Free & Fast Shipping</h6>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon",
+            "text"
+          ]
+        },
+        "group_4": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
+                "width": 30,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<h6>Premium Quality & Looks</h6>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon",
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "group_1",
+        "group_2",
+        "group_3",
+        "group_4"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 20,
+        "padding-block-end": 20
+      }
+    },
+    "share_easily_section": {
+      "type": "section",
+      "blocks": {
+        "container_group": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 40,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "media_group": {
+              "type": "group",
+              "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
+                "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 16,
-                "section_width": "page-width",
-                "section_height": "medium",
-                "section_height_custom": 80,
-                "color_scheme": "scheme-5",
-                "toggle_overlay": true,
-                "overlay_color": "#000000",
-                "overlay_style": "gradient",
+                "gap": 12,
+                "width": "50%",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
-                "padding-block-end": 31
-            }
-        },
-        "icons_section": {
-            "type": "section",
-            "blocks": {
-                "group_1": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "column",
-                        "header_alignment": "center",
-                        "gap": 10
-                    },
-                    "blocks": {
-                        "icon": {
-                            "type": "icon",
-                            "settings": {
-                                "icon": "none",
-                                "image_upload": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_4_698ab68a-b427-4bd9-a2c1-1e4d6ba6a2a3.jpg",
-                                "width": 30
-                            }
-                        },
-                        "text": {
-                            "type": "text",
-                            "settings": {
-                                "text": "<h6>Fast And Instant Shipping</h6>",
-                                "alignment": "center",
-                                "width": "fit-content"
-                            }
-                        }
-                    },
-                    "block_order": [
-                        "icon",
-                        "text"
-                    ]
-                },
-                "group_2": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "column",
-                        "header_alignment": "center",
-                        "gap": 10
-                    },
-                    "blocks": {
-                        "icon": {
-                            "type": "icon",
-                            "settings": {
-                                "icon": "none",
-                                "image_upload": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
-                                "width": 30
-                            }
-                        },
-                        "text": {
-                            "type": "text",
-                            "settings": {
-                                "text": "<h6>Secure, Safe & Private</h6>",
-                                "alignment": "center",
-                                "width": "fit-content"
-                            }
-                        }
-                    },
-                    "block_order": [
-                        "icon",
-                        "text"
-                    ]
-                },
-                "group_3": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "column",
-                        "header_alignment": "center",
-                        "gap": 10
-                    },
-                    "blocks": {
-                        "icon": {
-                            "type": "icon",
-                            "settings": {
-                                "icon": "none",
-                                "image_upload": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_2_fdfc8b62-9826-4c2d-9685-cdf5224cf478.jpg",
-                                "width": 30
-                            }
-                        },
-                        "text": {
-                            "type": "text",
-                            "settings": {
-                                "text": "<h6>Free & Fast Shipping</h6>",
-                                "alignment": "center",
-                                "width": "fit-content"
-                            }
-                        }
-                    },
-                    "block_order": [
-                        "icon",
-                        "text"
-                    ]
-                },
-                "group_4": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "column",
-                        "header_alignment": "center",
-                        "gap": 10
-                    },
-                    "blocks": {
-                        "icon": {
-                            "type": "icon",
-                            "settings": {
-                                "icon": "none",
-                                "image_upload": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
-                                "width": 30
-                            }
-                        },
-                        "text": {
-                            "type": "text",
-                            "settings": {
-                                "text": "<h6>Premium Quality & Looks</h6>",
-                                "alignment": "center",
-                                "width": "fit-content"
-                            }
-                        }
-                    },
-                    "block_order": [
-                        "icon",
-                        "text"
-                    ]
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "main_image": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
+                    "link": "",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
+              },
+              "block_order": [
+                "main_image"
+              ]
             },
-            "block_order": [
-                "group_1",
-                "group_2",
-                "group_3",
-                "group_4"
-            ],
-            "settings": {
-                "content_direction": "row",
+            "content_group": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
                 "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
+                "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
-                "gap": 32,
-                "section_width": "page-width",
-                "padding-block-start": 60,
-                "padding-block-end": 60,
-                "color_scheme": "scheme-1"
-            }
-        },
-        "share_easily_section": {
-            "type": "section",
-            "blocks": {
-                "container_group": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "row",
-                        "gap": 40,
-                        "header_alignment": "center",
-                        "width": "fill"
-                    },
-                    "blocks": {
-                        "media_group": {
-                            "type": "group",
-                            "settings": {
-                                "width": "50%"
-                            },
-                            "blocks": {
-                                "main_image": {
-                                    "type": "image",
-                                    "settings": {
-                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
-                                        "image_ratio": "square"
-                                    }
-                                }
-                            },
-                            "block_order": [
-                                "main_image"
-                            ]
-                        },
-                        "content_group": {
-                            "type": "group",
-                            "settings": {
-                                "width": "50%",
-                                "content_direction": "column",
-                                "vertical_alignment": "center",
-                                "header_alignment": "center",
-                                "gap": 20
-                            },
-                            "blocks": {
-                                "second_image": {
-                                    "type": "image",
-                                    "settings": {
-                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
-                                        "image_ratio": "adapt",
-                                        "width": "50%"
-                                    }
-                                },
-                                "heading": {
-                                    "type": "text",
-                                    "settings": {
-                                        "text": "<h2>Effortlessly share your identity with NFC tags</h2>",
-                                        "type_preset": "h2",
-                                        "width": "100%",
-                                        "alignment": "left"
-                                    }
-                                },
-                                "cta_button": {
-                                    "type": "button",
-                                    "settings": {
-                                        "label": "Shop Now",
-                                        "link": "shopify://collections/all",
-                                        "style": "primary",
-                                        "width": "fit-content"
-                                    }
-                                }
-                            },
-                            "block_order": [
-                                "second_image",
-                                "heading",
-                                "cta_button"
-                            ]
-                        }
-                    },
-                    "block_order": [
-                        "media_group",
-                        "content_group"
-                    ]
-                }
-            },
-            "block_order": [
-                "container_group"
-            ],
-            "settings": {
-                "section_width": "full-width",
-                "color_scheme": "scheme-1",
-                "content_direction": "column",
-                "padding-block-start": 40,
-                "padding-block-end": 40
-            }
-        },
-        "three_steps_section": {
-            "type": "section",
-            "blocks": {
-                "title_block": {
-                    "type": "text",
-                    "settings": {
-                        "text": "<h2>Just 3 simple steps</h2>",
-                        "type_preset": "h2",
-                        "width": "100%",
-                        "alignment": "center",
-                        "color_scheme": "scheme-5"
-                    }
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 20,
+                "width": "50%",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "second_image": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "50%",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 },
-                "steps_row": {
-                    "type": "group",
-                    "settings": {
-                        "content_direction": "row",
-                        "gap": 20,
-                        "width": "fill"
-                    },
-                    "blocks": {
-                        "step_1": {
-                            "type": "group",
-                            "settings": {
-                                "content_direction": "column",
-                                "gap": 10,
-                                "custom_class": "step-card-ui"
-                            },
-                            "blocks": {
-                                "img": {
-                                    "type": "image",
-                                    "settings": {
-                                        "image_ratio": "landscape",
-                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_4_698ab68a-b427-4bd9-a2c1-1e4d6ba6a2a3.jpg"
-                                    }
-                                },
-                                "txt": {
-                                    "type": "text",
-                                    "settings": {
-                                        "text": "<h4>Tap Your Keychain</h4><p>Tap to share instantly.</p>",
-                                        "type_preset": "rte",
-                                        "alignment": "left",
-                                        "color": "#ffffff"
-                                    }
-                                }
-                            },
-                            "block_order": [
-                                "img",
-                                "txt"
-                            ]
-                        },
-                        "step_2": {
-                            "type": "group",
-                            "settings": {
-                                "content_direction": "column",
-                                "gap": 10,
-                                "custom_class": "step-card-ui"
-                            },
-                            "blocks": {
-                                "img": {
-                                    "type": "image",
-                                    "settings": {
-                                        "image_ratio": "landscape",
-                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg"
-                                    }
-                                },
-                                "txt": {
-                                    "type": "text",
-                                    "settings": {
-                                        "text": "<h4>Instant Connection</h4><p>Immediate access.</p>",
-                                        "type_preset": "rte",
-                                        "alignment": "left",
-                                        "color": "#ffffff"
-                                    }
-                                }
-                            },
-                            "block_order": [
-                                "img",
-                                "txt"
-                            ]
-                        },
-                        "step_3": {
-                            "type": "group",
-                            "settings": {
-                                "content_direction": "column",
-                                "gap": 10,
-                                "custom_class": "step-card-ui"
-                            },
-                            "blocks": {
-                                "img": {
-                                    "type": "image",
-                                    "settings": {
-                                        "image_ratio": "landscape"
-                                    }
-                                },
-                                "txt": {
-                                    "type": "text",
-                                    "settings": {
-                                        "text": "<h4>Share Your Link</h4><p>Connect with anyone.</p>",
-                                        "type_preset": "rte",
-                                        "alignment": "left"
-                                    }
-                                }
-                            },
-                            "block_order": [
-                                "img",
-                                "txt"
-                            ]
-                        }
-                    },
-                    "block_order": [
-                        "step_1",
-                        "step_2",
-                        "step_3"
-                    ]
-                }
-            },
-            "block_order": [
-                "title_block",
-                "steps_row"
-            ],
-            "settings": {
-                "color_scheme": "scheme-5",
-                "padding-block-start": 120,
-                "padding-block-end": 120,
-                "content_direction": "column",
-                "horizontal_alignment": "center"
-            }
-        },
-        "wide_range_section": {
-            "type": "product-list",
-            "blocks": {
-                "header": {
-                    "type": "_product-list-content",
-                    "settings": {
-                        "horizontal_alignment": "center",
-                        "width": "fill"
-                    },
-                    "blocks": {
-                        "title": {
-                            "type": "_product-list-text",
-                            "settings": {
-                                "text": "<h3>Our Wide range of tags made for you</h3>",
-                                "type_preset": "h3",
-                                "alignment": "center",
-                                "width": "100%"
-                            }
-                        }
-                    },
-                    "block_order": [
-                        "title"
-                    ]
+                "heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h2>Effortlessly share your identity with NFC tags</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h2",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 },
-                "product_grid": {
-                    "type": "_product-card",
-                    "settings": {
-                        "product_card_gap": 10
-                    }
+                "cta_button": {
+                  "type": "button",
+                  "settings": {
+                    "label": "Shop Now",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
-            },
-            "settings": {
-                "collection": "nfc",
-                "layout_type": "grid",
-                "columns": 3,
-                "section_width": "page-width",
-                "color_scheme": "scheme-1",
-                "padding-block-start": 40,
-                "padding-block-end": 40
+              },
+              "block_order": [
+                "second_image",
+                "heading",
+                "cta_button"
+              ]
             }
+          },
+          "block_order": [
+            "media_group",
+            "content_group"
+          ]
         }
+      },
+      "block_order": [
+        "container_group"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
     },
-    "order": [
-        "hero_iLBwPd",
-        "icons_section",
-        "share_easily_section",
-        "three_steps_section",
-        "wide_range_section"
-    ]
+    "three_steps_section": {
+      "type": "section",
+      "blocks": {
+        "title_block": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Just 3 simple steps</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "steps_row": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 20,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "step_1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_4_698ab68a-b427-4bd9-a2c1-1e4d6ba6a2a3.jpg",
+                    "link": "",
+                    "image_ratio": "landscape",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h4>Tap Your Keychain</h4><p>Tap to share instantly.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "#ffffff",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "img",
+                "txt"
+              ]
+            },
+            "step_2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "img": {
+                  "type": "image",
+                  "settings": {
+                    "image": "shopify://shop_images/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                    "link": "",
+                    "image_ratio": "landscape",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h4>Instant Connection</h4><p>Immediate access.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "#ffffff",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "img",
+                "txt"
+              ]
+            },
+            "step_3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 10,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "img": {
+                  "type": "image",
+                  "settings": {
+                    "link": "",
+                    "image_ratio": "landscape",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "txt": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h4>Share Your Link</h4><p>Connect with anyone.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "img",
+                "txt"
+              ]
+            }
+          },
+          "block_order": [
+            "step_1",
+            "step_2",
+            "step_3"
+          ]
+        }
+      },
+      "block_order": [
+        "title_block",
+        "steps_row"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
+    },
+    "wide_range_section": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 16,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "settings": {
+        "collection": "nfc",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 8,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 12,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "hero_iLBwPd",
+    "icons_section",
+    "share_easily_section",
+    "three_steps_section",
+    "wide_range_section"
+  ]
 }
