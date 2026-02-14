@@ -912,18 +912,31 @@ h1,
 .product-card-description {
   font-size: 0.85rem;
   color: #6b7280;
-  line-height: 1.4;
+  line-height: 1.5;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin: 0;
   padding: 4px 12px 8px;
 }
 
-/* Product card Add to Cart button - rounded black full-width */
+/* Hide quantity selector on product list cards - reference design only shows button */
+.product-list .quantity-selector-wrapper,
+.product-list .quantity-selector,
+.product-list .quantity-label,
+.product-list .quantity-rules,
+.product-list .product-form-buttons>shopify-accelerated-checkout,
+.product-list .product-form-buttons>shopify-accelerated-checkout-button {
+  display: none !important;
+}
+
+/* Product card Add to Cart button - rounded black full-width pill */
+.product-list .buy-buttons-block button,
 .product-list .buy-buttons-block .add-to-cart-button,
-.product-list .buy-buttons-block .button {
+.product-list .buy-buttons-block .button,
+.product-list .buy-buttons-block .button-secondary {
   border-radius: 9999px !important;
   background-color: #000000 !important;
   color: #ffffff !important;
@@ -932,11 +945,15 @@ h1,
   font-size: 0.9rem;
   padding-block: 12px !important;
   text-transform: none !important;
+  letter-spacing: 0 !important;
   transition: background-color 0.2s ease, transform 0.15s ease;
+  width: 100%;
 }
 
+.product-list .buy-buttons-block button:hover,
 .product-list .buy-buttons-block .add-to-cart-button:hover,
-.product-list .buy-buttons-block .button:hover {
+.product-list .buy-buttons-block .button:hover,
+.product-list .buy-buttons-block .button-secondary:hover {
   background-color: #1a1a1a !important;
   transform: scale(1.02);
 }
@@ -944,6 +961,7 @@ h1,
 /* Product card hover effect */
 .product-list .product-card-block {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
 }
 
 .product-list .product-card-block:hover {

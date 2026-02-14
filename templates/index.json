@@ -1260,7 +1260,7 @@
                         "product_description": {
                             "type": "custom-liquid",
                             "settings": {
-                                "custom_liquid": "<p class=\"product-card-description\">{{ closest.product.description | strip_html | truncate: 100 }}</p>"
+                                "custom_liquid": "<p class=\"product-card-description\">{{ closest.product.description | strip_html | truncate: 200 }}</p>"
                             }
                         },
                         "buy_buttons": {
@@ -1269,10 +1269,27 @@
                                 "stacking": true,
                                 "show_pickup_availability": false,
                                 "gift_card_form": false,
-                                "padding-block-start": 0,
+                                "padding-block-start": 4,
                                 "padding-block-end": 0,
                                 "padding-inline-start": 12,
                                 "padding-inline-end": 12
+                            },
+                            "blocks": {
+                                "quantity": {
+                                    "type": "quantity",
+                                    "static": true
+                                },
+                                "add-to-cart": {
+                                    "type": "add-to-cart",
+                                    "static": true,
+                                    "settings": {
+                                        "style_class": "button"
+                                    }
+                                },
+                                "accelerated-checkout": {
+                                    "type": "accelerated-checkout",
+                                    "static": true
+                                }
                             }
                         }
                     },
