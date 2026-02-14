@@ -799,6 +799,106 @@ body,
   color: var(--color, var(--color-foreground));
 }
 
+/* =========================================
+   UI Overhaul - Global Styles & 8px System
+   ========================================= */
+
+:root {
+  /* Spacing System (8px base) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-8: 64px;
+  --space-10: 80px;
+  --space-15: 120px;
+}
+
+/* Updated Glass Panel to Gradient as requested */
+.glass-panel {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.2));
+  padding: var(--space-3);
+  border-radius: var(--space-2);
+  backdrop-filter: none;
+  /* Removed blur as it's now a gradient */
+  border: none;
+}
+
+/* Sticky Header Blur */
+.header-wrapper--sticky,
+.shopify-section-header-sticky .header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: var(--layer-header);
+  background: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background var(--hover-transition-duration) var(--hover-transition-timing);
+}
+
+/* Typography Updates */
+.text-hero-large {
+  font-size: 3.5rem;
+  /* Reduced from pure 96px to be slightly smaller as requested, but still large */
+  line-height: 1.1;
+  font-weight: 700;
+  /* Bold but not extra bold */
+}
+
+@media screen and (min-width: 750px) {
+  .text-hero-large {
+    font-size: 4rem;
+  }
+}
+
+h1,
+.h1 {
+  font-weight: 600;
+}
+
+/* Helper for subtext opacity */
+.subtext-opacity {
+  opacity: 0.7;
+  font-size: 1.125rem;
+  /* 18px */
+}
+
+/* Icon Sizing helper */
+.icon-fixed-sm {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-fixed-sm svg,
+.icon-fixed-sm img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Product Card Updates */
+.product-card-ui {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.product-card-ui:hover {
+  transform: translateY(-5px);
+}
+
+/* 3-Step Section Card */
+.step-card-ui {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+
 /* Ensure inputs with type presets maintain minimum 16px on mobile to prevent iOS zoom */
 @media screen and (max-width: 1200px) {
 

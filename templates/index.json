@@ -18,7 +18,7 @@
                 "text_w9CQWD": {
                     "type": "custom-liquid",
                     "settings": {
-                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p class=\"subtext-opacity\">Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
                     }
                 },
                 "button_shop_now": {
@@ -44,9 +44,9 @@
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
-                "vertical_alignment": "flex-end",
+                "vertical_alignment": "center",
                 "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "flex-end",
+                "vertical_alignment_flex_direction_column": "center",
                 "gap": 16,
                 "section_width": "page-width",
                 "section_height": "medium",
@@ -196,8 +196,8 @@
                 "vertical_alignment": "center",
                 "gap": 32,
                 "section_width": "page-width",
-                "padding-block-start": 20,
-                "padding-block-end": 20,
+                "padding-block-start": 60,
+                "padding-block-end": 60,
                 "color_scheme": "scheme-1"
             }
         },
@@ -317,7 +317,8 @@
                             "type": "group",
                             "settings": {
                                 "content_direction": "column",
-                                "gap": 10
+                                "gap": 10,
+                                "custom_class": "step-card-ui"
                             },
                             "blocks": {
                                 "img": {
@@ -346,7 +347,8 @@
                             "type": "group",
                             "settings": {
                                 "content_direction": "column",
-                                "gap": 10
+                                "gap": 10,
+                                "custom_class": "step-card-ui"
                             },
                             "blocks": {
                                 "img": {
@@ -375,7 +377,8 @@
                             "type": "group",
                             "settings": {
                                 "content_direction": "column",
-                                "gap": 10
+                                "gap": 10,
+                                "custom_class": "step-card-ui"
                             },
                             "blocks": {
                                 "img": {
@@ -412,8 +415,8 @@
             ],
             "settings": {
                 "color_scheme": "scheme-5",
-                "padding-block-start": 60,
-                "padding-block-end": 60,
+                "padding-block-start": 120,
+                "padding-block-end": 120,
                 "content_direction": "column",
                 "horizontal_alignment": "center"
             }
@@ -452,7 +455,7 @@
             "settings": {
                 "collection": "nfc",
                 "layout_type": "grid",
-                "columns": 4,
+                "columns": 3,
                 "section_width": "page-width",
                 "color_scheme": "scheme-1",
                 "padding-block-start": 40,
