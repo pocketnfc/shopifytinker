@@ -4222,6 +4222,12 @@ text-component {
 
 .text-accent-green {
   color: #00D26A !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .bg-accent-green {
