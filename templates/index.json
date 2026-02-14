@@ -627,7 +627,7 @@
                                 "heading": {
                                     "type": "text",
                                     "settings": {
-                                        "text": "<h2>Effortlessly share your identity with NFC tags</h2>",
+                                        "text": "<h2>Share Easily</h2>",
                                         "width": "100%",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -644,6 +644,31 @@
                                         "corner_radius": 0,
                                         "padding-block-start": 0,
                                         "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {}
+                                },
+                                "subtitle": {
+                                    "type": "text",
+                                    "settings": {
+                                        "text": "<p>Share your links with just one tap in just 3 simple steps making it effortless</p>",
+                                        "width": "100%",
+                                        "max_width": "normal",
+                                        "alignment": "left",
+                                        "type_preset": "rte",
+                                        "font": "var(--font-body--family)",
+                                        "font_size": "1rem",
+                                        "line_height": "normal",
+                                        "letter_spacing": "normal",
+                                        "case": "none",
+                                        "wrap": "pretty",
+                                        "color": "var(--color-foreground)",
+                                        "background": false,
+                                        "background_color": "#00000026",
+                                        "corner_radius": 0,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 8,
                                         "padding-inline-start": 0,
                                         "padding-inline-end": 0
                                     },
@@ -667,6 +692,7 @@
                             "block_order": [
                                 "second_image",
                                 "heading",
+                                "subtitle",
                                 "cta_button"
                             ]
                         }
@@ -841,7 +867,7 @@
                                 "txt": {
                                     "type": "text",
                                     "settings": {
-                                        "text": "<h4>Tap Your Keychain</h4><p>Tap to share instantly.</p>",
+                                        "text": "<h4>Tap Your Keychain</h4><p>Hold your NFC keychain near any smartphone \u2013 works through cases!</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -934,7 +960,7 @@
                                 "txt": {
                                     "type": "text",
                                     "settings": {
-                                        "text": "<h4>Instant Connection</h4><p>Immediate access.</p>",
+                                        "text": "<h4>Instant Connection</h4><p>The phone detects your keychain instantly \u2013 no app needed.</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1027,7 +1053,7 @@
                                 "txt": {
                                     "type": "text",
                                     "settings": {
-                                        "text": "<h4>Share Your Link</h4><p>Connect with anyone.</p>",
+                                        "text": "<h4>Share Your Link</h4><p>Your profile, Instagram, WhatsApp, or website opens automatically.</p>",
                                         "width": "fit-content",
                                         "max_width": "normal",
                                         "alignment": "left",
@@ -1079,7 +1105,7 @@
                 "section_width": "page-width",
                 "section_height": "",
                 "section_height_custom": 50,
-                "color_scheme": "scheme-5",
+                "color_scheme": "scheme-1",
                 "background_media": "none",
                 "video_position": "cover",
                 "background_image_position": "cover",
@@ -1160,15 +1186,15 @@
                     "type": "_product-card",
                     "static": true,
                     "settings": {
-                        "product_card_gap": 16,
+                        "product_card_gap": 12,
                         "inherit_color_scheme": true,
                         "color_scheme": "",
-                        "border": "none",
+                        "border": "solid",
                         "border_width": 1,
-                        "border_opacity": 100,
-                        "border_radius": 0,
+                        "border_opacity": 15,
+                        "border_radius": 16,
                         "padding-block-start": 0,
-                        "padding-block-end": 0,
+                        "padding-block-end": 16,
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
                     },
@@ -1190,10 +1216,10 @@
                         "product_title": {
                             "type": "product-title",
                             "settings": {
-                                "width": "fit-content",
+                                "width": "100%",
                                 "max_width": "normal",
                                 "alignment": "left",
-                                "type_preset": "rte",
+                                "type_preset": "h5",
                                 "font": "var(--font-body--family)",
                                 "font_size": "1rem",
                                 "line_height": "normal",
@@ -1204,10 +1230,10 @@
                                 "background": false,
                                 "background_color": "#00000026",
                                 "corner_radius": 0,
-                                "padding-block-start": 4,
+                                "padding-block-start": 8,
                                 "padding-block-end": 0,
-                                "padding-inline-start": 0,
-                                "padding-inline-end": 0
+                                "padding-inline-start": 12,
+                                "padding-inline-end": 12
                             }
                         },
                         "price": {
@@ -1227,15 +1253,35 @@
                                 "color": "var(--color-foreground)",
                                 "padding-block-start": 0,
                                 "padding-block-end": 0,
-                                "padding-inline-start": 0,
-                                "padding-inline-end": 0
+                                "padding-inline-start": 12,
+                                "padding-inline-end": 12
+                            }
+                        },
+                        "product_description": {
+                            "type": "custom-liquid",
+                            "settings": {
+                                "custom_liquid": "<p class=\"product-card-description\">{{ closest.product.description | strip_html | truncate: 100 }}</p>"
+                            }
+                        },
+                        "buy_buttons": {
+                            "type": "buy-buttons",
+                            "settings": {
+                                "stacking": true,
+                                "show_pickup_availability": false,
+                                "gift_card_form": false,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 12,
+                                "padding-inline-end": 12
                             }
                         }
                     },
                     "block_order": [
                         "product-card-gallery",
                         "product_title",
-                        "price"
+                        "price",
+                        "product_description",
+                        "buy_buttons"
                     ]
                 }
             },
@@ -1247,8 +1293,8 @@
                 "columns": 3,
                 "mobile_columns": "2",
                 "mobile_card_size": "60cqw",
-                "columns_gap": 8,
-                "rows_gap": 8,
+                "columns_gap": 16,
+                "rows_gap": 24,
                 "icons_style": "arrow",
                 "icons_shape": "none",
                 "section_width": "page-width",
