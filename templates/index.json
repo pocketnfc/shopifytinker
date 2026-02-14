@@ -1130,7 +1130,33 @@
                         "padding-inline-start": 0,
                         "padding-inline-end": 0
                     },
-                    "blocks": {}
+                    "blocks": {
+                        "heading_text": {
+                            "type": "text",
+                            "settings": {
+                                "text": "<h2>Our Wide range of tags made for you</h2>",
+                                "width": "100%",
+                                "max_width": "normal",
+                                "alignment": "center",
+                                "type_preset": "h2",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "color": "var(--color-foreground)",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    }
                 },
                 "static-product-card": {
                     "type": "_product-card",
@@ -1152,11 +1178,11 @@
                 }
             },
             "settings": {
-                "collection": "all",
+                "collection": "nfc",
                 "layout_type": "grid",
                 "carousel_on_mobile": false,
-                "max_products": 4,
-                "columns": 4,
+                "max_products": 6,
+                "columns": 3,
                 "mobile_columns": "2",
                 "mobile_card_size": "60cqw",
                 "columns_gap": 8,
