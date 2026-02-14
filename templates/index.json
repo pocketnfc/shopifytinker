@@ -663,24 +663,12 @@
                                     },
                                     "blocks": {}
                                 }
-<<<<<<< HEAD
-                            },
-                            "settings": {
-                                "collection": "all",
-                                "layout_type": "grid",
-                                "columns": 3,
-                                "section_width": "page-width",
-                                "color_scheme": "scheme-1",
-                                "padding-block-start": 40,
-                                "padding-block-end": 40
-=======
                             },
                             "block_order": [
                                 "second_image",
                                 "heading",
                                 "cta_button"
                             ]
->>>>>>> 3585b6c23b1b02cdda554b08819c2e9725bdf06f
                         }
                     },
                     "block_order": [
