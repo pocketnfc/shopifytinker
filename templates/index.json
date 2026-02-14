@@ -18,14 +18,24 @@
                 "text_w9CQWD": {
                     "type": "custom-liquid",
                     "settings": {
-                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+                    }
+                },
+                "button_shop_now": {
+                    "type": "button",
+                    "settings": {
+                        "label": "Shop Now",
+                        "link": "shopify://collections/all",
+                        "style": "primary",
+                        "width": "fit-content"
                     }
                 }
             },
             "block_order": [
                 "text_PmHftQ",
                 "text_w7f4Uw",
-                "text_w9CQWD"
+                "text_w9CQWD",
+                "button_shop_now"
             ],
             "settings": {
                 "media_type_1": "image",
@@ -231,6 +241,14 @@
                                 "gap": 20
                             },
                             "blocks": {
+                                "second_image": {
+                                    "type": "image",
+                                    "settings": {
+                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_3_b017d445-90bb-4559-af26-f38d7c030bda.jpg",
+                                        "image_ratio": "adapt",
+                                        "width": "50%"
+                                    }
+                                },
                                 "heading": {
                                     "type": "text",
                                     "settings": {
@@ -239,10 +257,21 @@
                                         "width": "100%",
                                         "alignment": "left"
                                     }
+                                },
+                                "cta_button": {
+                                    "type": "button",
+                                    "settings": {
+                                        "label": "Shop Now",
+                                        "link": "shopify://collections/all",
+                                        "style": "primary",
+                                        "width": "fit-content"
+                                    }
                                 }
                             },
                             "block_order": [
-                                "heading"
+                                "second_image",
+                                "heading",
+                                "cta_button"
                             ]
                         }
                     },
