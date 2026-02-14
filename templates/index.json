@@ -4,63 +4,22 @@
             "type": "hero",
             "blocks": {
                 "text_PmHftQ": {
-                    "type": "text",
+                    "type": "custom-liquid",
                     "settings": {
-                        "text": "<h5><span class=\"text-accent-green\">Introducing</span></h5>",
-                        "width": "fit-content",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                    },
-                    "blocks": {}
+                        "custom_liquid": "<h5><span class=\"text-accent-green\">Introducing</span></h5>"
+                    }
                 },
                 "text_w7f4Uw": {
-                    "type": "text",
+                    "type": "custom-liquid",
                     "settings": {
-                        "text": "<h1 class=\"text-hero-large\">NFC Keychains<br>by Pocket NFC</h1>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "padding-block-start": 20,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                    },
-                    "blocks": {}
+                        "custom_liquid": "<h1 class=\"text-hero-large\">NFC Keychains<br>by Pocket NFC</h1>"
+                    }
                 },
                 "text_w9CQWD": {
-                    "type": "text",
+                    "type": "custom-liquid",
                     "settings": {
-                        "text": "<div class=\"glass-panel\" style=\"text-align: left;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>",
-                        "width": "fit-content",
-                        "max_width": "narrow",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                    },
-                    "blocks": {}
+                        "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+                    }
                 }
             },
             "block_order": [
@@ -233,44 +192,73 @@
             }
         },
         "share_easily_section": {
-            "type": "media-with-content",
+            "type": "section",
             "blocks": {
-                "media": {
-                    "type": "_media-without-appearance",
+                "container_group": {
+                    "type": "group",
                     "settings": {
-                        "media_type": "image",
-                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
-                        "image_position": "cover"
-                    }
-                },
-                "content": {
-                    "type": "_content-without-appearance",
-                    "settings": {
-                        "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
-                        "gap": 16
+                        "content_direction": "row",
+                        "gap": 40,
+                        "header_alignment": "center",
+                        "width": "fill"
                     },
                     "blocks": {
-                        "heading": {
-                            "type": "text",
+                        "media_group": {
+                            "type": "group",
                             "settings": {
-                                "text": "<h2>Effortlessly share your identity with NFC tags</h2>",
-                                "type_preset": "h2",
-                                "width": "100%",
-                                "alignment": "center"
-                            }
+                                "width": "50%"
+                            },
+                            "blocks": {
+                                "main_image": {
+                                    "type": "image",
+                                    "settings": {
+                                        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2026-02-09_at_9.23.51_PM_1_f6c96b05-7cb6-42ea-b28e-d0a5e68c4fd6.jpg",
+                                        "image_ratio": "square"
+                                    }
+                                }
+                            },
+                            "block_order": [
+                                "main_image"
+                            ]
+                        },
+                        "content_group": {
+                            "type": "group",
+                            "settings": {
+                                "width": "50%",
+                                "content_direction": "column",
+                                "vertical_alignment": "center",
+                                "header_alignment": "center",
+                                "gap": 20
+                            },
+                            "blocks": {
+                                "heading": {
+                                    "type": "text",
+                                    "settings": {
+                                        "text": "<h2>Effortlessly share your identity with NFC tags</h2>",
+                                        "type_preset": "h2",
+                                        "width": "100%",
+                                        "alignment": "left"
+                                    }
+                                }
+                            },
+                            "block_order": [
+                                "heading"
+                            ]
                         }
                     },
                     "block_order": [
-                        "heading"
+                        "media_group",
+                        "content_group"
                     ]
                 }
             },
+            "block_order": [
+                "container_group"
+            ],
             "settings": {
-                "media_position": "left",
-                "media_width": "medium",
                 "section_width": "full-width",
                 "color_scheme": "scheme-1",
+                "content_direction": "column",
                 "padding-block-start": 40,
                 "padding-block-end": 40
             }
