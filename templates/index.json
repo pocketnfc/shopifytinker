@@ -12,29 +12,226 @@
     "hero_iLBwPd": {
       "type": "hero",
       "blocks": {
-        "text_PmHftQ": {
-          "type": "custom-liquid",
+        "group_jGRK83": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "custom_liquid": "<h5><span class=\"text-accent-green\">Introducing</span></h5>"
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "custom_class": "",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "custom_liquid_xXwFbL": {
+              "type": "custom-liquid",
+              "disabled": true,
+              "settings": {
+                "custom_liquid": "<h5><span class=\"text-accent-green\">Introducing</span></h5>"
+              },
+              "blocks": {}
+            },
+            "group_M8wQQn": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 0,
+                "width": "custom",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "custom_class": "",
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_4Aw9nG": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h4>Introducing</h4>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_j3N7qF": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h3><strong>NFC Keychains by Pocket NFC</strong></h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_4Aw9nG",
+                "text_j3N7qF"
+              ]
+            },
+            "text_DM8MLc": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "loose",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "custom_liquid_D4qQw6": {
+              "type": "custom-liquid",
+              "disabled": true,
+              "settings": {
+                "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
+              },
+              "blocks": {}
+            },
+            "ai_gen_block_9e163ab_gW8U4T": {
+              "type": "ai_gen_block_9e163ab",
+              "name": "Link",
+              "disabled": true,
+              "settings": {
+                "link_text": "Learn more",
+                "link_url": "",
+                "desktop_width_percent": 100,
+                "font_size": 16,
+                "text_transform": "none",
+                "text_color": "#000000",
+                "hover_color": "#82a31a",
+                "show_icon": true,
+                "icon_style": "arrow",
+                "icon_size": 20
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "custom_liquid_xXwFbL",
+            "group_M8wQQn",
+            "text_DM8MLc",
+            "custom_liquid_D4qQw6",
+            "ai_gen_block_9e163ab_gW8U4T"
+          ]
         },
         "text_w7f4Uw": {
           "type": "custom-liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<h1 class=\"text-hero-large\">NFC Keychains<br>by Pocket NFC</h1>"
           },
           "blocks": {}
         },
-        "text_w9CQWD": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"glass-panel\" style=\"text-align: left; width: 100%; max-width: 600px;\"><p>Create harmony in your daily routine. With NFC keychains having their own designated place, you'll never waste time hunting for them again.</p></div>"
-          },
-          "blocks": {}
-        },
         "button_shop_now": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "label": "Shop Now",
             "link": "shopify://collections/all",
@@ -49,9 +246,8 @@
         }
       },
       "block_order": [
-        "text_PmHftQ",
+        "group_jGRK83",
         "text_w7f4Uw",
-        "text_w9CQWD",
         "button_shop_now"
       ],
       "settings": {
