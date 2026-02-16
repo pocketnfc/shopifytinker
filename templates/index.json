@@ -768,7 +768,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "custom_class": "",
                 "inherit_color_scheme": true,
@@ -793,17 +793,18 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "main_image": {
-                  "type": "image",
+                "video_XKYk3e": {
+                  "type": "video",
+                  "name": "t:names.video",
                   "settings": {
-                    "image": "shopify://shop_images/deferred-media.png",
-                    "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/1737814094443723_jibo3j.mp4",
+                    "video_autoplay": true,
+                    "video_loop": true,
+                    "alt": "",
                     "custom_width": 100,
-                    "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "aspect_ratio": "auto",
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
@@ -817,7 +818,7 @@
                 }
               },
               "block_order": [
-                "main_image"
+                "video_XKYk3e"
               ]
             },
             "content_group": {
@@ -1089,7 +1090,7 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#000000f4",
+                "overlay_color": "#000000f5",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "link": "",
@@ -1269,7 +1270,7 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#000000f4",
+                "overlay_color": "#000000f5",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "link": "",
@@ -1449,7 +1450,7 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "toggle_overlay": true,
-                "overlay_color": "#000000f4",
+                "overlay_color": "#000000f5",
                 "overlay_style": "gradient",
                 "gradient_direction": "to top",
                 "link": "",
